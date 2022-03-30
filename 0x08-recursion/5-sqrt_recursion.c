@@ -4,6 +4,7 @@
 int square(int n, int s);
 
 /**
+ * square is the base function
  * _sqrt_recursion - get the natural square root of a number
  * @n: is the natural number
  * Return: The natural square root
@@ -16,7 +17,6 @@ return (square(n, 0));
 }
 
 /**
- * @n: is the natural number
  * @s: is a counter
  * Return: The sqrt of a natural number
  * If n does not have a natural square root, the function should return -1
