@@ -15,7 +15,7 @@ if (*s != '\0')
 {
 	total++;
 	
-	_strlen_recursion((char) *s + 1);
+	_strlen_recursion(s + 1);
 }
 else
 {
