@@ -14,7 +14,8 @@ int total = 0;
 if (*s != '\0')
 {
 	total++;
-	_strlen_recursion(*s + 1);
+	
+	_strlen_recursion((int) *s + 1);
 }
 else
 {
