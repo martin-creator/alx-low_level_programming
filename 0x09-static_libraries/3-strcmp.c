@@ -1,17 +1,15 @@
 #include "main.h"
+
 /**
- *_strcmp - compares to strings
- *@s1: s1
- *@s2: s2
- *Return: 1
- **/
+ * _strcmp - compare
+ * @s1 : pointerto char params
+ * @s2 : pointer to char params
+ * Return: *dest
+ */
+
 int _strcmp(char *s1, char *s2)
 {
-
-while (*s1 == *s2 && *s1 != '\0')
-{
-s1++;
-s2++;
-}
-return (*s1 - *s2);
+	(void)s1;
+	(void)s2;
+	return (0);
 }
