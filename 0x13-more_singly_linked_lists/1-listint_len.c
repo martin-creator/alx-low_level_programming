@@ -2,11 +2,13 @@
 #include <stdio.h>
 
 /**
- * listint_len - prints number of elements of a listint_t list
+ * listint_len - prints all the elements of a listint_t list
  *
  * @counter: counts number of elements
  *
- * Return: the number of elements
+ * @h: linked list
+ *
+ * Return: the number of elements in the linked list
  *
  */
 
@@ -24,4 +26,3 @@ while (current != NULL)
 }
 return (counter);
 }
-
