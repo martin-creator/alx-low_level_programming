@@ -6,6 +6,8 @@
  *
  * @counter: counts number of nodes
  *
+ * @h: linked list
+ *
  * Return: the number of nodes
  *
  */
