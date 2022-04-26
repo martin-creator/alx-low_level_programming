@@ -28,4 +28,3 @@ while (current != NULL)
 }
 return (counter);
 }
-
