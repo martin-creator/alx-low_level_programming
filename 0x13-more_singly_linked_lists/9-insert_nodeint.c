@@ -1,4 +1,7 @@
-nsert_nodeint_at_index - inserts a new node
+#include "lists.h"
+
+/**
+ * insert_nodeint_at_index - inserts a new node
  * at a given position.
  * @head: head of a list.
  * @idx: index of the list where the new node is
