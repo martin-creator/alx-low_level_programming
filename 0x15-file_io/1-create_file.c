@@ -2,19 +2,18 @@
 
 /**
  * create_file - creates a file
- *
  * @filename: filename
- * 
  * @text_content: content written in the file
  *
  * Return: returns either 1 on success or -1 on failure
- *
  */
 
 int create_file(const char *filename, char *text_content)
 {
+
 int ftp;
-int numLetters , writtenLetters;
+int numLetters;
+int writtenLetters;
 
 if (!filename)
 {
