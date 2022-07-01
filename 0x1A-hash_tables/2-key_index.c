@@ -7,6 +7,7 @@
  * @key: key passed
  * @size: size of the hash tables
  * Return: key index
+ * Note - dividing by size spreads key over keyspace
  */
 unsigned long int key_index(const unsigned char *key, unsigned long int size)
 {
